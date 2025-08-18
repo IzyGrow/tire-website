@@ -39,7 +39,7 @@ const HeroSection = () => {
           {/* Phone Mockup */}
           <div className="flex justify-center lg:justify-end fade-in-right delay-500">
             <div className="relative">
-              <PhoneMockup className="w-80 lg:w-96" showPlaceholder={true} />
+              <PhoneMockup className="w-80 lg:w-96" showPlaceholder={false} screenType="splash-screen" />
               
               {/* Floating Elements */}
               <div className="absolute -top-8 -left-8 w-16 h-16 bg-accent-green rounded-full opacity-20 animate-bounce"></div>

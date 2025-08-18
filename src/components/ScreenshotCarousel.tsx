@@ -2,13 +2,13 @@ import PhoneMockup from "./PhoneMockup";
 
 const ScreenshotCarousel = () => {
   const quickAccessScreens = [
-    { id: 'directions', title: 'Nasıl Gelinir' },
-    { id: 'mayor-message', title: 'Başkanın Mesajı' },
-    { id: 'travel-routes', title: 'Gezi Rotaları' },
-    { id: 'influencer-routes', title: 'Influencer Rotaları' },
-    { id: 'contact', title: 'Bize Ulaşın' },
-    { id: 'pharmacy', title: 'Nöbetçi Eczaneler' },
-    { id: 'emergency', title: 'Acil Durum' }
+    { id: 'directions', title: 'Nasıl Gelinir', screenType: 'nasil-gelinir' as const },
+    { id: 'mayor-message', title: 'Başkanın Mesajı', screenType: 'baskanin-mesaji' as const },
+    { id: 'travel-routes', title: 'Gezi Rotaları', screenType: 'gezi-rotalari' as const },
+    { id: 'influencer-routes', title: 'Influencer Rotaları', screenType: 'influencer-rotalari' as const },
+    { id: 'contact', title: 'Bize Ulaşın', screenType: 'bize-ulasin' as const },
+    { id: 'pharmacy', title: 'Nöbetçi Eczaneler', screenType: 'nobetci-eczaneler' as const },
+    { id: 'emergency', title: 'Acil Durum', screenType: 'acil-durum' as const }
   ];
 
   return (
@@ -29,25 +29,15 @@ const ScreenshotCarousel = () => {
             {quickAccessScreens.map((screen, index) => (
               <div key={screen.id} className={`flex-shrink-0 fade-in-up delay-${(index + 1) * 100}`}>
                 <div className="text-center">
-                  <PhoneMockup className="w-64" showPlaceholder={true} />
+                  <PhoneMockup className="w-64" showPlaceholder={false} screenType={screen.screenType} />
                   <h3 className="mt-6 text-lg font-semibold text-primary">{screen.title}</h3>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    Ekran görüntüsü yakında eklenecek
-                  </p>
                 </div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* Note for Future Updates */}
-        <div className="text-center mt-12 fade-in-up delay-600">
-          <div className="glass rounded-2xl p-6 max-w-2xl mx-auto">
-            <p className="text-muted-foreground">
-              <strong>Not:</strong> Gerçek uygulama ekran görüntüleri theapplaunchpad.com servisi kullanılarak yakında eklenecektir.
-            </p>
-          </div>
-        </div>
+
       </div>
     </div>
   );

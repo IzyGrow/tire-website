@@ -27,7 +27,6 @@ const QRCodeSection = ({ title, showTitle = false, size = "small" }: QRCodeSecti
               <Smartphone className="w-4 h-4" />
               <span>App Store'dan İndirin</span>
             </div>
-            <div className="text-xs text-muted-foreground">iOS 12+</div>
           </div>
         </div>
 
@@ -41,7 +40,6 @@ const QRCodeSection = ({ title, showTitle = false, size = "small" }: QRCodeSecti
               <Download className="w-4 h-4" />
               <span>Google Play'den İndirin</span>
             </div>
-            <div className="text-xs text-muted-foreground">Android 8+</div>
           </div>
         </div>
       </div>
