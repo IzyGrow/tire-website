@@ -1,23 +1,12 @@
 import QRCodeSection from "./QRCodeSection";
 import { Download, Star, Users, Shield } from "lucide-react";
-import tireBelediyesiLogo from "@/assets/tire-belediyesi-logo.png";
 
 const DownloadSection = () => {
   return (
     <section id="indir" className="py-20 bg-gradient-to-br from-background via-secondary to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <div className="flex justify-center mb-8 fade-in-up">
-            <div className="w-24 h-24 bg-hero-gradient rounded-3xl flex items-center justify-center shadow-hard">
-              <img 
-                src={tireBelediyesiLogo} 
-                alt="Tire Miras App Icon" 
-                className="w-16 h-16 object-contain"
-              />
-            </div>
-          </div>
-          
-          <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6 fade-in-up delay-200">
+          <h2 className="text-4xl lg:text-5xl font-bold text-primary mb-6 fade-in-up">
             Hemen İndirin
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12 fade-in-up delay-300">

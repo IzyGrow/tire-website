@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import tireBelediyesiLogo from "@/assets/tire-belediyesi-logo.png";
+import tireBelediyesiLogo from "@/assets/tire-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +33,7 @@ const Header = () => {
             <img 
               src={tireBelediyesiLogo} 
               alt="Tire Belediyesi Logo" 
-              className="w-10 h-10 object-contain"
+              className="w-48 h-48 object-contain p-6"
             />
             <div>
               <h1 className="text-xl font-bold text-primary">Tire Belediyesi</h1>

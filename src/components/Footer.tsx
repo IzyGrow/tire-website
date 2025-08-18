@@ -1,6 +1,6 @@
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
-import tireBelediyesiLogo from "@/assets/tire-belediyesi-logo.png";
+import tireBelediyesiLogo from "@/assets/tire-logo.png";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
               <img 
                 src={tireBelediyesiLogo} 
                 alt="Tire Belediyesi Logo" 
-                className="w-12 h-12 object-contain bg-white rounded-xl p-2"
+                className="w-20 h-20 object-contain bg-white rounded-xl p-3"
               />
               <div>
                 <h3 className="text-2xl font-bold">Tire Belediyesi</h3>
