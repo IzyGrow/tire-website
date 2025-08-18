@@ -59,25 +59,6 @@ const DownloadSection = () => {
             showTitle={false}
           />
         </div>
-
-        {/* Device Compatibility */}
-        <div className="mt-16 text-center fade-in-up delay-800">
-          <div className="glass rounded-2xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-xl font-bold text-primary mb-4">Sistem Gereksinimleri</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-semibold text-primary mb-2">iOS</h4>
-                <p className="text-muted-foreground">iOS 12.0 ve üzeri</p>
-                <p className="text-muted-foreground">iPhone, iPad, iPod touch</p>
-              </div>
-              <div>
-                <h4 className="font-semibold text-primary mb-2">Android</h4>
-                <p className="text-muted-foreground">Android 8.0 ve üzeri</p>
-                <p className="text-muted-foreground">ARM64 ve ARM32 destekli</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
