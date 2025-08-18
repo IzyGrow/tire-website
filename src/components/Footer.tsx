@@ -1,24 +1,20 @@
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
-import tireBelediyesiLogo from "@/assets/tire-logo.png";
+import tireBelediyesiLogo from "@/assets/logo-beyaz.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white">
+    <footer className="bg-black text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo and Info */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
+            <div className="flex items-center mb-6">
               <img 
                 src={tireBelediyesiLogo} 
                 alt="Tire Belediyesi Logo" 
-                className="w-20 h-20 object-contain bg-white rounded-xl p-3"
+                className="w-38 h-20 object-contain"
               />
-              <div>
-                <h3 className="text-2xl font-bold">Tire Belediyesi</h3>
-                <p className="text-white/80">Mobil Uygulama</p>
-              </div>
             </div>
             <p className="text-white/70 mb-6 max-w-md">
               Tire'nin tarihi ve kültürel mirasını keşfetmenin en kolay yolu. 
