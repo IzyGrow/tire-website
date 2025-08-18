@@ -72,7 +72,19 @@ const Footer = () => {
                 Belediye Web Sitesi
               </a>
               <a href="#" className="block text-white/80 hover:text-accent-green transition-colors">
-                KVKK
+                E-Belediye
+              </a>
+              <a href="#" className="block text-white/80 hover:text-accent-green transition-colors">
+                Başkan
+              </a>
+              <a href="#" className="block text-white/80 hover:text-accent-green transition-colors">
+                Meclis
+              </a>
+              <a href="#" className="block text-white/80 hover:text-accent-green transition-colors">
+                Duyurular
+              </a>
+              <a href="#" className="block text-white/80 hover:text-accent-green transition-colors">
+                İhale İlanları
               </a>
             </div>
           </div>
