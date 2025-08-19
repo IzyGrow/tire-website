@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Twitter, Instagram, Youtube } from "lucide-react";
 import { Link } from "react-router-dom";
 import tireBelediyesiLogo from "@/assets/logo-beyaz.png";
 
@@ -23,14 +23,6 @@ const Footer = () => {
             
             {/* Social Media */}
             <div className="flex space-x-4">
-              <a 
-                href="https://www.facebook.com/tctirebelediyesi/?locale=hi_IN" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-accent-green transition-colors"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
               <a 
                 href="https://x.com/tctirebelediye?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" 
                 target="_blank" 
