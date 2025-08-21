@@ -19,7 +19,7 @@ const HeroSection = () => {
             Tire Miras
           </h1>
           <h2 className="text-2xl lg:text-3xl text-white/90 mb-8 fade-in-up delay-200">
-            Şehrinizi Keşfedin
+            Şehrimizi Keşfedin
           </h2>
           <p className="text-xl text-white/80 mb-12 max-w-3xl mx-auto fade-in-up delay-300 leading-relaxed">
             Tire'nin tarihi, kültürel ve turistik mekanlarını mobil uygulamımızla kolayca keşfedin. 

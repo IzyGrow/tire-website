@@ -57,18 +57,17 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-1 text-accent-green" />
                 <div>
-                  <p className="text-white/90">Cumhuriyet Mahallesi</p>
-                  <p className="text-white/90">Belediye Binası</p>
-                  <p className="text-white/90">Tire / İzmir</p>
+                  <p className="text-white/90">29 EKİM CAD. CUMHURİYET MAH.</p>
+                  <p className="text-white/90">NO:19 35900 İZMİR/TİRE</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-accent-green" />
-                <p className="text-white/90">(232) 512 10 00</p>
+                <p className="text-white/90">444 35 03</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent-green" />
-                <p className="text-white/90">info@tire.bel.tr</p>
+                <p className="text-white/90">tirebel@tire.bel.tr</p>
               </div>
             </div>
           </div>
@@ -99,7 +98,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white/60 text-sm">
-              © 2024 Tire Belediyesi. Tüm hakları saklıdır.
+              © 2025 Tire Belediyesi. Tüm hakları saklıdır.
             </p>
 
           </div>
