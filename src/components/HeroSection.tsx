@@ -22,8 +22,8 @@ const HeroSection = () => {
             Şehrimizi Keşfedin
           </h2>
           <p className="text-xl text-white/80 mb-12 max-w-3xl mx-auto fade-in-up delay-300 leading-relaxed">
-            Tire'nin tarihi, kültürel ve turistik mekanlarını mobil uygulamımızla kolayca keşfedin. 
-            GPS destekli harita ile rotalar oluşturun, etkinlikleri takip edin.
+          Tire'nin tarihi ve kültürel mekanlarını, mobil uygulamamızla kolayca keşfedin. 
+          GPS destekli haritalar ile turistik rotalar oluşturun, etkinlikleri takip edin.
           </p>
           
           {/* QR Codes */}
