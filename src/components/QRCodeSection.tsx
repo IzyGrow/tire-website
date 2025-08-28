@@ -16,7 +16,7 @@ const QRCodeSection = ({ title, showTitle = false, size = "small" }: QRCodeSecti
   const iosQRRef = useRef<HTMLDivElement>(null);
 
   // GitHub Releases APK download URL - Using GitHub Releases for better bandwidth management
-  const apkDownloadUrl = "https://github.com/IzyGrow/tire-website/releases/download/v1.0.0/tire.apk";
+  const apkDownloadUrl = "https://github.com/IzyGrow/tire-website/releases/download/v1.0.0/tireV2.apk";
 
   // Generate QR codes when component mounts
   useEffect(() => {
