@@ -1,5 +1,5 @@
 import QRCodeSection from "./QRCodeSection";
-import tireHeritageBg from "@/assets/tire-heritage-bg.jpg";
+import tireHeritageBg from "@/assets/tire-anasayfa.png";
 
 const HeroSection = () => {
   return (
@@ -8,12 +8,12 @@ const HeroSection = () => {
       className="min-h-screen flex items-center relative overflow-hidden"
       style={{
         backgroundImage: `linear-gradient(rgba(46, 82, 102, 0.8), rgba(46, 82, 102, 0.9)), url(${tireHeritageBg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
+        backgroundSize: '100%',
+        backgroundPosition: 'center 10%',
+        backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="container mx-auto px-4 py-24 relative z-10">
+      <div className="container mx-auto px-4 py-35 relative z-10">
         <div className="text-center">
           <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 fade-in-up">
             Tire Miras
